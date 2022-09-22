@@ -1,0 +1,13 @@
+<suite name="Unosquare Sharepoint">
+	<groups>
+		<run>
+			<include name="TCMenuFlow" />
+		</run>
+	</groups>
+	<test name="Verifying Menu options">
+		<classes>
+			<class name="com.unosquare.tests.login_Test" />
+			<class name="com.unosquare.tests.aboutme_Test" />
+		</classes>
+	</test>
+</suite>

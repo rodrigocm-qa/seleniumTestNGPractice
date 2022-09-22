@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Unosquare Sharepoint]">
+  <test thread-count="5" name="Verifying Menu options(failed)">
+    <groups>
+      <run>
+        <include name="TCMenuFlow"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.unosquare.tests.login_Test">
+        <methods>
+          <include name="login_TitleIsOk"/>
+          <include name="loginFlow_TestCase"/>
+        </methods>
+      </class> <!-- com.unosquare.tests.login_Test -->
+      <class name="com.unosquare.tests.aboutme_Test">
+        <methods>
+          <include name="aboutMeMenu_TestCase"/>
+        </methods>
+      </class> <!-- com.unosquare.tests.aboutme_Test -->
+    </classes>
+  </test> <!-- Verifying Menu options(failed) -->
+</suite> <!-- Failed suite [Unosquare Sharepoint] -->
